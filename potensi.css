@@ -130,8 +130,6 @@ ul li ul.dropdown li {
     color: rgb(15,73,132);
     margin: 20px 0 10px;
 }
-
-/* MAIN BOX STYLE */
 .potensi-box {
     max-width: 900px;
     margin: 0 auto 20px;
@@ -144,8 +142,6 @@ ul li ul.dropdown li {
     font-size: 17px;
     line-height: 1.6;
 }
-
-/* SPECIAL COLORS FOR POINTS */
 .point {
     font-weight: 500;
 }
@@ -155,8 +151,6 @@ ul li ul.dropdown li {
 .color3 { background-color: #E4F9F5; border-color: #2A9D8F; }
 .color4 { background-color: #FFF1E4; border-color: #F4A261; }
 .color5 { background-color: #F7E6FF; border-color: #9C27B0; }
-
-/* SPECIAL BOXES */
 .intro {
     border-color: #2A9D8F;
     background-color: #E4F9F5;
@@ -276,4 +270,5 @@ ul li ul.dropdown li {
 #sdg1-slide-3:checked ~ .sdg1-dots label:nth-child(3) {
     background: rgb(15, 73, 132);
     transform: scale(1.1);
+
 }
