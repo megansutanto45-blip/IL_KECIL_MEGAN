@@ -140,6 +140,19 @@ ul li ul.dropdown li {
     font-size: 16px;
 }
 
+.extra-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.extra-img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+
 .color1 { border-color: #E63946; background-color: #FFE5E7; }
 .color2 { border-color: #457B9D; background-color: #E6F2FF; }
 .color3 { border-color: #2A9D8F; background-color: #E4F9F5; }
@@ -155,8 +168,6 @@ ul li ul.dropdown li {
     margin-bottom: 30px;
     margin-top: 60px;
 }
-
-
 @media(max-width:700px){
     .sdg-box{
         flex-direction: column;
@@ -166,5 +177,4 @@ ul li ul.dropdown li {
         width: 60%;
     }
 }
-
 
